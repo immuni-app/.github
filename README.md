@@ -1,7 +1,7 @@
 <h1 align="center">Immuni</h1>
 
 <div align="center">
-<img widht="256" height="256" src=".github/logo.png">
+<img widht="256" height="256" src="logo.png">
 </div>
 
 <br />
