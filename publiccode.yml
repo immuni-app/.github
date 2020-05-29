@@ -6,7 +6,7 @@ releaseDate: "2020-05-24"
 softwareType: standalone/mobile
 softwareVersion: 1.0.0
 developmentStatus: stable
-logo: .github/logo.png
+logo: logo.png
 platforms:
   - ios
   - android
@@ -38,10 +38,23 @@ description:
       It features a **contact tracing** system based on **Bluetooth Low
       Energy:**
 
-          - When two users come sufficiently close to each other for long enough, their devices record each other’s _rolling proximity identifier_ in their local memory. These identifiers are generated from _temporary exposure keys_ and change multiple times each hour. These keys are **generated randomly** and change once per day.
-          - When a user tests positive for SARS-CoV-2, the virus causing  COVID-19, they have the option to upload to a server their recent  temporary exposure keys. This operation can only happen with the  validation of a **healthcare operator.**
-          - The app periodically downloads the new temporary exposure keys and  uses them to derive the infected users’ rolling proximity identifiers  for the recent past. It then matches them against those stored in the  device’s memory and **notifies the user** if a risky contact has occurred.
-          - The system uses **no geolocation data** whatsoever,  including GPS data. So, the app cannot tell where the contact with a  potentially contagious user took place, nor the identities of those  involved.
+          - When two users come sufficiently close to each other for long
+            enough, their devices record each other’s _rolling proximity
+            identifier_ in their local memory. These identifiers are generated
+            from _temporary exposure keys_ and change multiple times each hour.
+            These keys are **generated randomly** and change once per day.
+          - When a user tests positive for SARS-CoV-2, the virus causing
+            COVID-19, they have the option to upload to a server their recent
+            temporary exposure keys. This operation can only happen with the
+            validation of a **healthcare operator.**
+          - The app periodically downloads the new temporary exposure keys and
+            uses them to derive the infected users’ rolling proximity
+            identifiers  for the recent past. It then matches them against
+            those stored in the  device’s memory and **notifies the user** if
+            a risky contact has occurred.
+          - The system uses **no geolocation data** whatsoever,  including GPS
+            data. So, the app cannot tell where the contact with a  potentially
+            contagious user took place, nor the identities of those  involved.
 
       To implement its contact tracing functionality, Immuni leverages **the
       Apple and Google Exposure Notification framework.** This allows Immuni to
@@ -64,15 +77,15 @@ description:
       Immuni is a mobile app that helps us to fight the COVID-19 pandemic
       by notifying users at risk of carrying the virus as early as possible
     screenshots:
+      - screenshots/Welcome.png
+      - screenshots/HowItWorks.png
+      - screenshots/ProvinceSelection.png
       - screenshots/AppStatus.png
       - screenshots/DataUpload.png
       - screenshots/ExposureNotificationAndSuggestions.png
-      - screenshots/HowItWorks.png
       - screenshots/Permissions.png
-      - screenshots/ProvinceSelection.png
       - screenshots/RequiredUpdate.png
       - screenshots/Settings.png
-      - screenshots/Welcome.png
 
 intendedAudience:
   countries:
