@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  schedule:
+    - cron:  '30 17 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: publiccode-softwareversion-check-action
+        uses: italia/publiccode-softwareversion-check-action@master
+        id: pva
+        with:
+          remoterepo: "https://github.com/immuni-app/immuni-app-android.git"
+          remove: "Immuni-|build[0-9]+"
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        if: failure()
+        with:
+          title: "chore: update softwareVersion ${{ steps.pva.outputs.version }} and date in publiccode.yml"
+          branch: feature/publiccode-${{ steps.pva.outputs.version }}
