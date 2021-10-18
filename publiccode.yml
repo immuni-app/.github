@@ -2,9 +2,9 @@ publiccodeYmlVersion: "0.2"
 applicationSuite: immuni
 url: "https://github.com/immuni-app/immuni"
 name: immuni
-releaseDate: '2021-09-19'
+releaseDate: '2021-10-11'
 softwareType: standalone/mobile
-softwareVersion: 2.5.4
+softwareVersion: 2.5.5
 developmentStatus: stable
 logo: logo.png
 platforms:
