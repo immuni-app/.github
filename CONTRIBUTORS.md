@@ -14,6 +14,8 @@ Francesco Giacchè	[@untakatapuntaka](https://github.com/untakatapuntaka)
 
 Francesco Grauso	[@grausof](https://github.com/grausof)
 
+Francesco Stranieri [@FStranieri](https://github.com/FStranieri)
+
 Gabriele Platania	[@xelhark](https://github.com/xelhark)
 
 Giuliano Di Pietro	[@gdipietro74](https://github.com/gdipietro74)
@@ -26,7 +28,7 @@ Lorenzo Spinucci	[@lspinucci](https://github.com/lspinucci)
 
 Luca Querella	[@lucaquerella](https://github.com/lucaquerella)
 
-Marco Uberti	
+Marco Uberti [@marcouberti](https://github.com/marcouberti)
 
 Marianna Dioguardi	[@mariannaDioguardi](https://github.com/mariannaDioguardi)
 
