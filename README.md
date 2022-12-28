@@ -1,13 +1,14 @@
 <h1 align="center">Immuni</h1>
 
 <div align="center">
-<img widht="256" height="256" src="logo.png">
+    <img widht="156" height="156" src="logo.png">
 </div>
 
 <br />
 
-Reference meta-repository representing the `publiccode.yml` landing page for the `immuni-app` organization.
-The source code and the technical documentation are published on the following repositories:
+🇬🇧 The source code and the technical documentation are published on the following repositories:
+
+🇮🇹 Il codice sorgente e la documentazione tecnica sono pubblicati sui seguenti repository:
 
 - [immuni-documentation](https://github.com/immuni-app/documentation)
 - [immuni-app-ios](https://github.com/immuni-app/immuni-app-ios)
