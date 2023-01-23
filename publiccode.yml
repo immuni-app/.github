@@ -5,7 +5,7 @@ name: immuni
 releaseDate: '2022-03-11'
 softwareType: standalone/mobile
 softwareVersion: 2.6.0
-developmentStatus: stable
+developmentStatus: obsolete
 logo: logo.png
 platforms:
   - ios
